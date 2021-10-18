@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">voting_final_year_project</string>
+    //Headings
+    <string name="heading_one">No one can Access the admin panel</string>
+    <string name="heading_two">Complete Registration Process</string>
+    <string name="heading_three">Login Setup</string>
+    <string name="heading_fourth">Participate in Voting</string>
+
+    //Description
+    <string name="desc_one">There is two panel such as Admin panel and Voting panel. As you are a voter, so you must have to go the Voting panel for participating in voting.</string>
+    <string name="desc_two">After going to the voting panel you have to complete the whole registration procedure to be a voter in the voter list for participating in voting.</string>
+    <string name="desc_three">After the completion of registration procedure, you have to login with your voter id to notice the further procedure.</string>
+    <string name="desc_fourth">Doing the Login Activity,you can see the candidates list and their bio too.Then you have to give a vote to your respective choice one. </string>
+</resources>
