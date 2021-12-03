@@ -11,4 +11,5 @@
     <string name="desc_two">After going to the voting panel you have to complete the whole registration procedure to be a voter in the voter list for participating in voting.</string>
     <string name="desc_three">After the completion of registration procedure, you have to login with your voter id to notice the further procedure.</string>
     <string name="desc_fourth">Doing the Login Activity,you can see the candidates list and their bio too.Then you have to give a vote to your respective choice one. </string>
+    <string name="desc_fifth">As a voter, Must Click on the Voting Panel </string>
 </resources>

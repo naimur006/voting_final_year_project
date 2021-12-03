@@ -17,9 +17,9 @@ public class ViewPagerAdapter extends PagerAdapter {
     int images[] ={
 
             R.drawable.admin_logo,
-            R.drawable.registration_logo,
-            R.drawable.login_logo,
-            R.drawable.voting_logo
+            R.drawable.registration_modified,
+            R.drawable.login_modified,
+            R.drawable.vote_modified
     };
 
     int headings[] = {
