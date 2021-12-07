@@ -8,4 +8,8 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="prefix" parent="Base.TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>

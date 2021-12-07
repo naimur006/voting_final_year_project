@@ -3,6 +3,12 @@
 
     <string name="create_account"> HAVE NOT AN ACCOUNT?<u>CREATE ONE</u> </string>
     <string name="forget_password"><u>FORGET PASSWORD</u></string>
+
+    <string name="password_needed_must">
+        Must need at least 8 characters, one number, one special character, one uppercase letter*
+    </string>
+
+
     //Headings
     <string name="heading_one">No one can Access the admin panel</string>
     <string name="heading_two">Complete Registration Process</string>

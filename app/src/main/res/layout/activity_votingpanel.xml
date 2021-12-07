@@ -45,6 +45,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Username"
                 app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
                 app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="2dp"
                 app:startIconDrawable="@drawable/ic_baseline_person_24"
@@ -65,6 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Voter ID"
+                android:textColorHint="@color/black"
                 android:layout_marginTop="10dp"
                 app:hintTextColor="@color/black"
                 app:boxStrokeColor="@color/black"
@@ -87,6 +89,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Phone"
+                app:prefixText="+880"
+                app:prefixTextColor="#FF0000"
+                app:prefixTextAppearance="@style/prefix"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                android:textColorHint="@color/black"
                 app:hintTextColor="@color/black"
                 app:boxStrokeColor="@color/black"
                 android:layout_marginTop="10dp"
@@ -101,7 +109,8 @@
                     android:layout_height="match_parent"
                     android:fontFamily="serif"
                     android:inputType="number"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:maxLength="10"/>
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -109,6 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email"
+                android:textColorHint="@color/black"
                 android:layout_marginTop="10dp"
                 app:hintTextColor="@color/black"
                 app:boxStrokeColor="@color/black"
@@ -131,6 +141,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
+                android:textColorHint="@color/black"
                 android:layout_marginTop="10dp"
                 app:hintTextColor="@color/black"
                 app:boxStrokeColor="@color/black"
