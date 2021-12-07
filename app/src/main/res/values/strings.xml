@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">voting_final_year_project</string>
+
+    <string name="create_account"> HAVE NOT AN ACCOUNT?<u>CREATE ONE</u> </string>
+    <string name="forget_password"><u>FORGET PASSWORD</u></string>
     //Headings
     <string name="heading_one">No one can Access the admin panel</string>
     <string name="heading_two">Complete Registration Process</string>
@@ -12,4 +15,5 @@
     <string name="desc_three">After the completion of registration procedure, you have to login with your voter id to notice the further procedure.</string>
     <string name="desc_fourth">Doing the Login Activity,you can see the candidates list and their bio too.Then you have to give a vote to your respective choice one. </string>
     <string name="desc_fifth">As a voter, Must Click on the Voting Panel </string>
+
 </resources>

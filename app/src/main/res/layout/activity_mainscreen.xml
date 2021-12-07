@@ -47,7 +47,7 @@
         android:layout_marginTop="20dp"
         android:orientation="vertical">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/admin_card"
             android:foreground="?attr/selectableItemBackground"
             android:clickable="true"
@@ -95,9 +95,9 @@
 
             </RelativeLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/voting_card"
             android:foreground="?attr/selectableItemBackground"
             android:clickable="true"
@@ -145,9 +145,9 @@
 
             </RelativeLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/back_card"
             android:foreground="?attr/selectableItemBackground"
             android:clickable="true"
@@ -178,7 +178,7 @@
 
             </RelativeLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>
