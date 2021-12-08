@@ -11,28 +11,25 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class signup_activity extends AppCompatActivity {
+public class sign2 extends AppCompatActivity {
 
     //variables
     ImageView backBtn;
     Button next;
     TextView textTitle;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_signup_activity );
+        setContentView ( R.layout.activity_sign2 );
+
 
         //Hooks
         backBtn = findViewById ( R.id.signup_back_button );
         next = findViewById ( R.id.signup_next_button );
         textTitle = findViewById ( R.id.signup_title );
-
-
     }
-
-
-
 
     public void callNextSignupScreen(View view){
 
@@ -45,9 +42,10 @@ public class signup_activity extends AppCompatActivity {
         pairs[1] = new Pair<View,String>(next,"transition_next_btn");
         pairs[2] = new Pair<View,String>(textTitle,"transition_title_text");
 
-        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation ( signup_activity.this,pairs );
+        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation ( sign2.this,pairs );
         startActivity ( intent,options.toBundle () );
 
     }
+
 
 }

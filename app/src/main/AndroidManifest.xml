@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Voting_final_year_project">
-        <activity android:name=".forgetpassword"></activity>
+        <activity android:name=".sign3"></activity>
+        <activity android:name=".sign2" />
+        <activity android:name=".forgetpassword" />
         <activity android:name=".signup_activity" />
-        <activity android:name=".signup" />
         <activity android:name=".inside_adminpanel" />
         <activity android:name=".votingpanel" />
         <activity android:name=".adminpanel" />
